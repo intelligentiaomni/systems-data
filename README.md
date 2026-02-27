@@ -25,12 +25,14 @@ Demonstrates relational database design and query development for IT asset inven
 
 Both projects illustrate structured problem-solving, operational awareness, and foundational systems / data skills.
 
-## Possible extensions
+### Possible extensions
 
 * Real-time monitoring
 * Alert system
 * Dashboard integration
 * Data validation rules
+
+### Open to feedback and collaboration on systems / data projects
 
 ## Folder Structure
 
@@ -47,7 +49,7 @@ systems-data/
 │   ├── requirements.txt            ← Python dependencies
 │   └── README.md                   ← Project-specific description
 │
-├── sql-it-inventory/│
+├── sql-it-inventory/
 │   ├── schema.sql                  ← Relational database schema
 │   ├── seed_data.sql               ← Sample data insertion
 │   ├── queries.sql                 ← Example queries on inventory
@@ -84,10 +86,9 @@ Database setup (SQLite / Postgres)
        ▲
        │
 schema.sql + seed_data.sql
-
+```
 ## Notes
 
 - Thresholds and parameters in Python log analysis are configurable.
 - All datasets are synthetic; no real user or infrastructure data is included.
-- Built as concise, operational proofs-of-work for early systems / data portfolio review.
-```
+- Built as concise, operational proofs-of-work for early technical portfolio review.
