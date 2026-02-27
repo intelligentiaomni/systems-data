@@ -54,6 +54,15 @@ Top failing IP: 203.0.113.55 (4 attempts)
 Flagged users (threshold ≥3): {'bob.a': 3}
 External IPs detected: ['203.0.113.55']
 ```
+
+---
+## Future Improvements
+
+- Add visualization of login trends
+- Parameterize thresholds via CLI arguments
+- Add unit tests for detection logic
+- Containerize with Docker
+
 ---
 
 ## Notes
