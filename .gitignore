@@ -1,0 +1,52 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pycache/
+*.egg
+*.egg-info/
+dist/
+build/
+*.so
+*.log
+
+# =========================
+# Virtual environments
+# =========================
+venv/
+env/
+.venv/
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# OS-specific files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Jupyter / notebooks 
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Data files 
+# =========================
+# Keep dataset local
+data/*.csv
+data/*.json
+data/*.db
+
+# =========================
+# Other temp / cache
+# =========================
+*.tmp
+*.bak
+*.swp
