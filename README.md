@@ -2,7 +2,9 @@
 
 Technical systems and data analysis with reproducible problem-solving, long-term development, and research-informed insights.
 
-## Projects
+---
+
+## Project Overview
 
 ### 1. Python Log Analysis
 Processes simulated authentication logs to detect abnormal login activity. Features include:
@@ -25,16 +27,24 @@ Demonstrates relational database design and query development for IT asset inven
 
 Both projects illustrate structured problem-solving, operational awareness, and foundational systems / data skills.
 
-### Possible extensions
-
-* Real-time monitoring
-* Alert system
-* Dashboard integration
-* Data validation rules
-
 ### Open to feedback and collaboration on systems / data projects
 
-## Folder Structure
+---
+
+## Roadmap
+
+* **Real-Time Monitoring Prototype**<br>
+Implement a near real-time log ingestion and alerting workflow to simulate continuous monitoring of authentication events.
+* **Risk Scoring Model**<br>
+Introduce weighted risk scoring for users, IPs, and devices to support prioritization and structured decision-making.
+* **Anomaly Detection Layer**<br>
+Implement statistical and pattern-based detection to identify irregular login activity and asset deviations.
+* **Automated Analytical Report**<br>
+Generate a concise technical summary (Markdown/PDF) highlighting key findings, flagged risks, and recommended actions.
+
+---
+
+## Directory Structure
 
 ```
 systems-data/                      
@@ -87,6 +97,8 @@ Database setup (SQLite / Postgres)
        │
 schema.sql + seed_data.sql
 ```
+---
+
 ## Notes
 
 - Thresholds and parameters in Python log analysis are configurable.

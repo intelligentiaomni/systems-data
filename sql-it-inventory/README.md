@@ -17,7 +17,7 @@ The database is fully synthetic but simulates realistic scenarios, including ove
 
 ---
 
-## Schema
+### Schema
 
 - **departments**: `department_id` (PK), `name`, `location`  
 - **users**: `user_id` (PK), `username`, `full_name`, `email`, `department_id` (FK)  
@@ -28,7 +28,7 @@ Constraints enforce **data integrity** (primary keys, foreign keys, `CHECK` for 
 
 ---
 
-## Seed Data Highlights
+### Seed Data Highlights
 
 - ~15 users, ~30 devices, 5 departments  
 - Some users with **multiple devices**  
@@ -36,7 +36,9 @@ Constraints enforce **data integrity** (primary keys, foreign keys, `CHECK` for 
 - Some devices with **overdue maintenance (>180 days)**  
 - Variety of statuses (`active`, `maintenance`, `retired`)  
 
-**Edge Case Example:**  
+---
+
+### Edge Case Example: 
 ```sql
 -- User with multiple devices
 user_id 16, 'sam.t', assigned two laptops
@@ -64,16 +66,16 @@ All queries are commented for clarity and demonstrate aggregation, joins, and da
 
 ## How to Use
 
-1. Create database (e.g., SQLite):
+1. **Create database (e.g., SQLite):**
 
 sqlite3 it_inventory.db < schema.sql
 sqlite3 it_inventory.db < seed_data.sql
 
-2. Run queries:
+2. **Run queries:**
 
 sqlite3 it_inventory.db < queries.sql
 
-3. Review query results to perform operational insights such as:
+3. **Review query results to perform operational insights such as:**
 
 * Identifying devices overdue for maintenance
 
