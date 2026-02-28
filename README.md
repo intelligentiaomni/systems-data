@@ -1,6 +1,6 @@
 # Systems and Data Projects
 
-Technical operational systems and data analysis fundamentals with reproducible problem-solving alongside long-term systems development work with scientific research and discovery perspective. 
+Technical systems and data analysis with reproducible problem-solving, long-term development, and research-informed insights.
 
 ## Projects
 
